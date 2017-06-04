@@ -1,0 +1,17 @@
+{
+  "name": "vidfest",
+  "version": "1.0.0",
+  "description": "A video chat with simple peer",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js : bundle.js"
+  },
+  "author": "Bash",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^4.1.0"
+  },
+  "dependencies": {
+    "simple-peer": "^8.1.0"
+  }
+}
